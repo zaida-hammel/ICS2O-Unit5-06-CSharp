@@ -25,21 +25,24 @@ class Program
                 addedInteger = addedInteger + 1;
                 answer = answer + counter1;
             }
-        }else if (counter1 < 0 && counter2 < 0)
+        }
+        else if (counter1 < 0 && counter2 < 0)
         {
             while (addedInteger > counter2)
             {
                 addedInteger = addedInteger - 1;
                 answer = answer - counter1;
             }
-        }else if (counter1 > 0 && counter2 < 0)
+        }
+        else if (counter1 > 0 && counter2 < 0)
         {
             while (addedInteger > counter2)
             {
                 addedInteger = addedInteger - 1;
                 answer = answer - counter1;
             }
-        }else if (counter1 < 0 && counter2 > 0)
+        }
+      else if (counter1 < 0 && counter2 > 0)
         {
             while (addedInteger < counter2)
             {
