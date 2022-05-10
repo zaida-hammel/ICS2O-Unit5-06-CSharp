@@ -42,7 +42,7 @@ class Program
                 answer = answer - counter1;
             }
         }
-      else if (counter1 < 0 && counter2 > 0)
+        else if (counter1 < 0 && counter2 > 0)
         {
             while (addedInteger < counter2)
             {
