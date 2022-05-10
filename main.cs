@@ -18,23 +18,31 @@ class Program
         Console.Write("Input second integer: ");
         counter2 = Convert.ToInt32(Console.ReadLine());
 
-        if (counter1 > 0 && counter2 > 0) {
-            while (addedInteger < counter2) {
+        if (counter1 > 0 && counter2 > 0)
+        {
+            while (addedInteger < counter2)
+            {
                 addedInteger = addedInteger + 1;
                 answer = answer + counter1;
             }
-        } else if (counter1 < 0 && counter2 < 0) {
-            while (addedInteger > counter2) {
+        }else if (counter1 < 0 && counter2 < 0)
+        {
+            while (addedInteger > counter2)
+            {
                 addedInteger = addedInteger - 1;
                 answer = answer - counter1;
             }
-        } else if (counter1 > 0 && counter2 < 0) {
-            while (addedInteger > counter2) {
+        }else if (counter1 > 0 && counter2 < 0)
+        {
+            while (addedInteger > counter2)
+            {
                 addedInteger = addedInteger - 1;
                 answer = answer - counter1;
             }
-        } else if (counter1 < 0 && counter2 > 0) {
-            while (addedInteger < counter2) {
+        }else if (counter1 < 0 && counter2 > 0)
+        {
+            while (addedInteger < counter2)
+            {
                 addedInteger = addedInteger + 1;
                 answer = answer + counter1;
             }
